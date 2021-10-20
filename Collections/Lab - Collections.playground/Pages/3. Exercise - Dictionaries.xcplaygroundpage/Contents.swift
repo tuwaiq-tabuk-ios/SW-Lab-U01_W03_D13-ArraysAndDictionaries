@@ -5,6 +5,7 @@
  */
 
 
+
 //:  Using subscripting syntax to add April to the collection with a value of 30. Print the dictionary.
 
 
@@ -23,3 +24,38 @@
 /*:
 [Previous](@previous)  |  page 3 of 4  |  [Next: App Exercise - Pacing](@next)
  */
+print("\n- - - - - Exercice1 - - - - -")
+
+var daysInMonth : [String : Int] = ["January" : 31 , "February" : 28, "March" :31 ]
+
+print("\n\n- - - - - Exercice2 - - - - -")
+
+daysInMonth["April"] = 30
+print(daysInMonth)
+
+print("\n\n- - - - - Exercice3 - - - - -")
+
+daysInMonth.updateValue( 29 , forKey: "February")
+print(daysInMonth)
+
+print("\n\n- - - - - Exercice4 - - - - -")
+
+if let dayInJan = daysInMonth["January"]
+{
+print("January has \(daysInMonth) days ")
+}
+
+print("\n\n- - - - - Exercice5 - - - - -")
+
+let shapesArray = ["circle" , "Square" , "Triangle"]
+let colorsArray = ["white","Green"," black"]
+
+let  shapesAndColors = ["shapes": shapesArray , "Colors": colorsArray ]
+print(shapesAndColors)
+
+print("\n\n- - - - - Exercice6 - - - - -")
+
+if let  Colors = shapesAndColors["Colors"]
+{
+  print(Colors[2])
+}

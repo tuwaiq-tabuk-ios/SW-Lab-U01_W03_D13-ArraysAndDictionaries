@@ -11,12 +11,9 @@
 
 //:  In your app you want to show all of these lists on the same screen grouped into sections. Create a `challenges` array that holds each of the lists you have created (it will be an array of arrays). Using `challenges`, print the first element in the second challenge list.
 
-
 //:  All of the challenges will reset at the end of the month. Use the `removeAll` to remove everything from `challenges`. Print `challenges`.
 
-
 //:  Create a new array of type `String` that will represent challenges a user has committed to instead of available challenges. It can be an empty array or have a few items in it.
-
 
 //:  Write an if statement that will use `isEmpty` to check if there is anything in the array. If there is not, print a statement asking the user to commit to a challenge. Add an else-if statement that will print "The challenge you have chosen is <INSERT CHOSEN CHALLENGE>" if the array count is exactly 1. Then add an else statement that will print "You have chosen multiple challenges."
 
@@ -24,3 +21,34 @@
 /*:
 [Previous](@previous)  |  page 2 of 4  |  [Next: Exercise - Dictionaries](@next)
  */
+print("\n- - - - - Exercice1 - - - - -")
+
+var walkingchallenges = ["Walk 3 miles a day", "Walk 15 miles a day"]
+var runningchallenges = ["Run 5 times a week.", "Run 7 times a week."]
+
+print("\n\n - - - - - Exercice2 - - - - -")
+
+var challenges = [walkingchallenges,runningchallenges]
+
+print(runningchallenges[0])
+
+print("\n\n - - - - - Exercice3 - - - - -")
+
+challenges.removeAll()
+print(challenges)
+
+print("\n\n - - - - - Exercice4 - - - - -")
+
+var committedchallenges = [walkingchallenges[0]]
+print(committedchallenges)
+
+print("\n\n - - - - - Exercice5 - - - - -")
+
+if  committedchallenges.isEmpty {
+  print("Please , complete the challenges ")
+} else if (committedchallenges.count == 1){
+  print("The challenges you have chose is \(committedchallenges)")
+} else {
+  
+print("You have multiple challenges.")
+}
