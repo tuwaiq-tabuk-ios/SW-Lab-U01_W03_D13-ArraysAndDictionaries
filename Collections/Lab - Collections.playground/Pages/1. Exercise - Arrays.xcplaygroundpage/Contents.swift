@@ -23,3 +23,31 @@
 /*:
 page 1 of 4  |  [Next: App Exercise - Activity Challenge](@next)
  */
+//Ex1
+
+var registrationList = [String]()
+print(registrationList)
+//Ex2
+
+registrationList.append("sara")
+print(registrationList)
+//Ex3
+
+
+registrationList += ["ahmed","ali","mohammed", "awad","rony"]
+print(registrationList)
+//Ex4
+
+registrationList.insert("Charlie", at: 1)
+print(registrationList)
+//Ex5
+
+registrationList[6] = "Rebecca"
+print(registrationList)
+
+//Ex6
+
+let deletedItem = registrationList.removeLast()
+print(deletedItem)
+
+
