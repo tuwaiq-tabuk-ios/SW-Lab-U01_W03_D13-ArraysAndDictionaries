@@ -14,15 +14,16 @@ paces["Sprint"] = 4.0
 print(paces)
 
 //:  Imagine the user in question gets faster over time and decides to update his/her pacing on runs. Update the values of "Medium" and "Fast" to 7.5 and 5.8, respectively. Print the dictionary.
-// paces.updateValue(7.5, forKey: "Medium")
-//paces.updateValue(5.8, forKey: "Fast")
-//print(paces)
-
-paces["Medium"] = 7.5
-paces["Fast"] = 5.8
+let updateMedium = paces.updateValue(7.5, forKey: "Medium")
+let updateFast = paces.updateValue(5.8, forKey: "Fast")
 print(paces)
 
+// paces["Medium"] = 7.5
+// paces["Fast"] = 5.8
+// print(paces)
+
 // i think both ways work? but the question asked for Update Value not Add
+
 //:  Imagine the user in question decides not to store "Sprint" as one his/her regular paces. Remove "Sprint" from the dictionary. Print the dictionary.
 paces["Sprint"] = nil
 print(paces)
