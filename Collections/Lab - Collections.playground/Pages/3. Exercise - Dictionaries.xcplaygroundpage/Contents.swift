@@ -23,3 +23,30 @@
 /*:
 [Previous](@previous)  |  page 3 of 4  |  [Next: App Exercise - Pacing](@next)
  */
+print("\n\n- - - - - Exercice1 - - - - -")
+var daysInMonths: [String: Int] = ["January": 31, "February": 28, "March": 31]
+print(daysInMonths)
+
+print("\n\n- - - - - Exercice2 - - - - -")
+daysInMonths["April"] = 30
+print(daysInMonths)
+
+print("\n\n- - - - - Exercice3 - - - - -")
+daysInMonths.updateValue(29, forKey: "February")
+print(daysInMonths)
+
+print("\n\n- - - - - Exercice4 - - - - -")
+if let daysInJan = daysInMonths["January"] {
+  print("January has \(daysInJan) days")
+}
+
+print("\n\n- - - - - Exercice5 - - - - -")
+let shapesArray = ["Colors","Square", "Triangle"]
+let colorsArray = ["Red", "Green", "Blue"]
+var shapesAndColors: [String: [String]] = ["Shapes": shapesArray, "Colors": colorsArray]
+print(shapesArray)
+
+print("\n\n- - - - - Exercice6 - - - - -")
+if let colors = shapesAndColors["Colors"] {
+  print(colors[2])
+}

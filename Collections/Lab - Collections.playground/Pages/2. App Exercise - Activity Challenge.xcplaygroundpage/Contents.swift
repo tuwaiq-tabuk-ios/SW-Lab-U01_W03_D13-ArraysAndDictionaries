@@ -8,7 +8,6 @@
  Using arrays of type `String`, create at least two lists, one for walking challenges, and one for running challenges. Each should have at least two challenges and should be initialized using an array literal. Feel free to create more lists for different activities.
  */
 
-
 //:  In your app you want to show all of these lists on the same screen grouped into sections. Create a `challenges` array that holds each of the lists you have created (it will be an array of arrays). Using `challenges`, print the first element in the second challenge list.
 
 
@@ -24,3 +23,29 @@
 /*:
 [Previous](@previous)  |  page 2 of 4  |  [Next: Exercise - Dictionaries](@next)
  */
+print("\n\n- - - - - Exercice1 - - - - -")
+var walkingchallenges = ["walk 5 milesa day", "walk 150 miles a week"]
+var runningchallenges = ["running 2 miles a day", "running 70 miles a week"]
+print(walkingchallenges)
+print(runningchallenges)
+print("\n\n- - - - - Exercice2 - - - - -")
+var challenges = [walkingchallenges,runningchallenges]
+print(runningchallenges[0])
+
+print("\n\n- - - - - Exercice3 - - - - -")
+challenges.removeAll()
+print(challenges)
+
+print("\n\n- - - - - Exercice4 - - - - -")
+var committedchallenges : [String] = [walkingchallenges[0]]
+print(committedchallenges)
+
+print("\n\n- - - - - Exercice5 - - - - -")
+if committedchallenges.isEmpty {
+  print("please, commit to challenge")
+}else if(committedchallenges.count == 1){
+  print("The challenges you have chosen is \(committedchallenges[0])")
+}else{
+  print("you have chosen multple challenges.")
+}
+
