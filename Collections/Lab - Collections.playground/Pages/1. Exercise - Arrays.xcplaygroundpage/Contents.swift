@@ -5,6 +5,7 @@
  */
 
 
+
 //:  Your friend Sara is the first to register for the event. Add her name to `registrationList` using the `append(_:)` method. Print the contents of the collection.
 
 
@@ -12,7 +13,6 @@
 
 
 //:  Use the `insert(_:at:)` method to add `Charlie` into the array as the second element. Print the contents of the collection.
-
 
 //:  Somebody had a conflict and decided to transfer registration to someone else. Use array subscripting to change the sixth element to `Rebecca`. Print the contents of the collection.
 
@@ -23,3 +23,26 @@
 /*:
 page 1 of 4  |  [Next: App Exercise - Activity Challenge](@next)
  */
+//Exercise1
+var registrationList = [String]()
+
+//Exercise2
+registrationList.append("Sara")
+print (registrationList)
+
+//Exercise3
+registrationList += ["Haya","Mohammed","Ressam","Khalid"]
+print(registrationList)
+
+//Exercise4
+registrationList.insert("Charlie", at: 1)
+print(registrationList)
+
+//Exercise5
+registrationList.insert("Rebecca", at: 5)
+registrationList.remove(at: 6)
+print(registrationList)
+
+//Exercise6
+let deletedItem = registrationList.removeLast()
+print(deletedItem)
