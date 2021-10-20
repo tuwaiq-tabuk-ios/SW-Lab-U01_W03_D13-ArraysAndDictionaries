@@ -16,8 +16,8 @@ dictionaryYaers.updateValue(29, forKey: "February")
 print(dictionaryYaers)
 
 //:  Use if-let syntax to retrieve the number of days under "January". If the value is there, print "January has 31 days", where 31 is the value retrieved from the dictionary.
-if dictionaryYaers["January"] != nil {
-  print("January has \(dictionaryYaers["January"]!) days")
+if let numberDays = dictionaryYaers["January"] {
+  print("January has \(numberDays) days")
 }
 
 //:  Given the following arrays, create a new [String : [String]] dictionary. `shapesArray` should use the key "Shapes" and `colorsArray` should use the key "Colors". Print the resulting dictionary.
