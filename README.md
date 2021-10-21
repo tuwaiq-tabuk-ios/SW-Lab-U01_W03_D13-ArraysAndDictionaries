@@ -8,17 +8,17 @@ Arrays and dictionaries
 
 
 ## DeadLine 
-Thursday 21st October ![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-20 at 21 10 05](https://user-images.githubusercontent.com/85367931/138217666-6967f4a3-00bb-4248-9254-fe9d192eade5.png)
-9:15 am
-![Uploading Simulator Screen Sho![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-21 at 08 39 54](https://user-images.githubusercontent.com/85367931/138218123-b6830196-f0dc-4afe-a6e6-391e4cbee029.png)
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-21 at 08 37 54](https://user-images.githubusercontent.com/85367931/138218129-8b46f14d-38cb-439f-9513-752bf4a0f1c9.png)
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-20 at 21 10 05](https://user-images.githubusercontent.com/85367931/138218138-983ccecf-9865-4eec-918f-83f9ed953853.png)
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-21 at 08 37 43](https://user-images.githubusercontent.com/85367931/138218145-cbf78556-4a1e-4cec-91dc-75b528cde5ec.png)
-t - iPhone 12 Pro Max - 2021-10-21 at 08.39.10.png…]()
 
  
+ ##screenshot 
  
  
- 
+ ![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-21 at 08 38 08](https://user-images.githubusercontent.com/85367931/138218268-cdf23055-5fdc-4f05-be38-d7d0efdf1b8d.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-21 at 08 39 10](https://user-images.githubusercontent.com/85367931/138218280-7acdb75b-bb17-4bd8-a7e7-268b927c59e9.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-21 at 08 39 54](https://user-images.githubusercontent.com/85367931/138218292-f93481f0-93d2-4389-8586-1083d89286f5.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-21 at 08 37 54](https://user-images.githubusercontent.com/85367931/138218299-b1bf7d42-282a-4c1a-8d89-13c7167694f1.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-20 at 21 10 05](https://user-images.githubusercontent.com/85367931/138218308-bfea373d-9cad-4490-b5dd-74e511a10939.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-10-21 at 08 37 43](https://user-images.githubusercontent.com/85367931/138218311-c5fc9b35-922b-4dbf-8960-384e4a2fe178.png)
+
  
  
