@@ -32,3 +32,25 @@
  
 [Previous](@previous)  |  page 4 of 4
  */
+print("\n\n- - - -Exercice1- - - -")
+var paces = ["Easy":10.0, "medium": 8.8, "fast" : 6.0]
+print (paces)
+print("\n\n- - - -Exercice2- - - -")
+paces["sprint"] = 4.0
+print(paces)
+
+print("\n\n- - - -Exercice3- - - -")
+paces.updateValue(7.5, forKey: "medium")
+paces.updateValue(5.8, forKey: "fast")
+print(paces)
+ 
+print("\n\n- - - -Exercice4- - - -")
+paces["sprint"] = nil
+print(paces)
+
+print("\n\n- - - -Exercice5- - - -")
+print(paces)
+if let Madiumpaces = paces["medium"] {
+  print("Okay! I'll keep you at a \(Madiumpaces) miute mile pace.")
+}
+
